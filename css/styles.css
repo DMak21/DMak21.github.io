@@ -1,0 +1,127 @@
+/* Typography */
+
+html {
+	font-family: 'Calibre', sans-serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@font-face {
+  font-family: "SF Mono";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SFMono-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Display";
+  font-weight: 600;
+  src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
+}
+
+@font-face {
+  font-family: "SF Text";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Text-Regular.otf");
+}
+
+.icons-social i {
+	font-size: 2em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main > .intro1 {
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+main > .intro {
+	font-family: Calibre, "SF Display", "San Francisco", "SF Pro Text", -apple-system, system-ui, system-ui, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+	font-size: 80px;
+	font-weight: 600;
+}
+
+main > .tagline {
+	font-family: Calibre, "SF Text", "San Francisco", "SF Pro Text", -apple-system, system-ui, system-ui, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+.devto {
+	margin-bottom: -0.20rem;
+}
+
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+
+
+/* Theme */
+
+main {
+	background: #09162f;
+}
+
+main > .intro1 {
+	color: #64ffda;
+}
+
+main > .intro {
+	color: #e4f0ff
+}
+
+main > .tagline {
+	color:#8890b1;
+}
+
+.icons-social a {
+	color: #8892b0;
+}
+
+.icons-social a:hover {
+	color: #00ffde;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
